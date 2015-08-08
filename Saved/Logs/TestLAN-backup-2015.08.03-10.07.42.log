@@ -1,0 +1,177 @@
+﻿[2015.08.03-08.04.54:438][  0]Log file open, 08/03/15 10:04:54
+[2015.08.03-08.04.54:438][  0]LogInit:Display: Running engine for game: TestLAN
+[2015.08.03-08.04.54:438][  0]LogInit:Display: RandInit(-684054734) SRandInit(-684054733).
+[2015.08.03-08.04.54:438][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.03-08.04.54:438][  0]LogStats: Stats thread started
+[2015.08.03-08.04.54:438][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.03-08.04.54:438][  0]LogInit: API Version: 2579680
+[2015.08.03-08.04.54:438][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.03-08.04.54:438][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.03-08.04.54:438][  0]LogInit: Build Configuration: Development
+[2015.08.03-08.04.54:438][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.03-08.04.54:438][  0]LogInit: Command line:  
+[2015.08.03-08.04.54:438][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.03-08.04.54:438][  0]LogInit: Rocket: 1
+[2015.08.03-08.04.54:450][  0]LogInit: Using libcurl 7.41.0
+[2015.08.03-08.04.54:450][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.03-08.04.54:450][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.03-08.04.54:450][  0]LogInit:  - other features:
+[2015.08.03-08.04.54:450][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.03-08.04.54:450][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.03-08.04.54:450][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.03-08.04.54:450][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.03-08.04.54:450][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.03-08.04.54:450][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.03-08.04.54:450][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.03-08.04.54:450][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.03-08.04.54:450][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.03-08.04.54:450][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.03-08.04.54:460][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.03-08.04.54:471][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.03-08.04.54:477][  0]LogInit: Object subsystem initialized
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Loïc/Documents/Unreal Projects/TestLAN/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Loïc/Documents/Unreal Projects/TestLAN/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.03-08.04.54:478][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Loïc/Documents/Unreal Projects/TestLAN/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.03-08.04.54:478][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.03-08.04.54:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.03-08.04.54:486][  0]LogInit: Computer: LOIC-PC
+[2015.08.03-08.04.54:486][  0]LogInit: User: Loïc
+[2015.08.03-08.04.54:486][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.03-08.04.54:486][  0]LogInit: High frequency timer resolution =2.728062 MHz
+[2015.08.03-08.04.54:486][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.03-08.04.54:486][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.03-08.04.54:486][  0]LogMemory: Process Physical Memory: 49.48 MB used, 49.48 MB peak
+[2015.08.03-08.04.54:486][  0]LogMemory: Process Virtual Memory: 25.54 MB used, 25.54 MB peak
+[2015.08.03-08.04.54:486][  0]LogMemory: Physical Memory: 3904.72 MB used, 8111.74 MB total
+[2015.08.03-08.04.54:486][  0]LogMemory: Virtual Memory: 299.24 MB used, 134217728.00 MB total
+[2015.08.03-08.04.54:515][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.08.03-08.04.54:713][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.03-08.04.55:210][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX880M (Feature Level 11_0)
+[2015.08.03-08.04.55:210][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2015.08.03-08.04.55:231][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX880M (Feature Level 11_0)
+[2015.08.03-08.04.55:231][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2015.08.03-08.04.55:233][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.03-08.04.55:233][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2015.08.03-08.04.55:233][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.03-08.04.55:238][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.04.55:239][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.03-08.04.55:239][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.03-08.04.55:259][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.03-08.04.55:744][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.03-08.04.56:396][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.03-08.04.56:407][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.03-08.04.56:419][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.03-08.04.56:430][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.03-08.04.56:442][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.03-08.04.56:452][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.03-08.04.56:462][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.03-08.04.56:471][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.03-08.04.56:481][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.03-08.04.56:491][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.03-08.04.56:500][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.03-08.04.56:510][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.03-08.04.56:549][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.03-08.04.56:558][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.03-08.04.56:568][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.03-08.04.56:578][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.03-08.04.56:578][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.03-08.04.56:735][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Loïc/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Loïc/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Loïc/Documents/Unreal Projects/TestLAN/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Loïc/Documents/Unreal Projects/TestLAN/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.03-08.04.56:787][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.03-08.04.56:912][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.03-08.04.56:924][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Loïc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.03-08.04.57:088][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.03-08.04.57:155][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.03-08.04.57:156][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.03-08.04.57:177][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.03-08.04.57:177][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.03-08.04.57:439][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.03-08.04.58:175][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.03-08.04.58:436][  0]SourceControl: Info Source control is disabled
+[2015.08.03-08.04.58:445][  0]SourceControl: Info Source control is disabled
+[2015.08.03-08.04.58:453][  0]SourceControl: Info Source control is disabled
+[2015.08.03-08.04.58:461][  0]SourceControl: Info Source control is disabled
+[2015.08.03-08.04.58:627][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.03-08.04.58:628][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.03-08.04.58:687][  0]LogEngine: Initializing Engine...
+[2015.08.03-08.04.58:689][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.03-08.04.58:690][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.03-08.04.58:807][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.03-08.04.58:810][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.03-08.04.58:818][  0]LogInit: FAudioDevice initialized.
+[2015.08.03-08.04.58:856][  0]LogDerivedDataCache: Saved boot cache 0.04s 53MB C:/Users/Loïc/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.03-08.04.58:866][  0]LogInit: Texture streaming: Disabled
+[2015.08.03-08.04.58:884][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.03-08.04.58:884][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.03-08.04.58:884][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 504f49814bd2122454a9c9a4beaeaa57|2799e6c2b9344bb28bf6eae71078dab8|928b9dfe-ef31-4895-b7ab-97275a57542b
+[2015.08.03-08.04.58:884][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.03-08.04.58:907][  0]LogInit: Transaction tracking system initialized
+[2015.08.03-08.04.59:018][  0]BlueprintLog: New page: Editor Load
+[2015.08.03-08.04.59:048][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.08.03-08.04.59:048][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.03-08.04.59:615][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.03-08.04.59:616][  0]LogConsoleResponse:Display: 
+[2015.08.03-08.04.59:692][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.03-08.04.59:822][  0]SourceControl: Info Source control is disabled
+[2015.08.03-08.04.59:822][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Loïc/Documents/Unreal Projects/TestLAN/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.03-08.04.59:822][  0]LightingResults: New page: Lighting Build
+[2015.08.03-08.04.59:832][  0]MapCheck: New page: Map Check
+[2015.08.03-08.04.59:832][  0]LightingResults: New page: Lighting Build
+[2015.08.03-08.04.59:841][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006981BE4B80
+[2015.08.03-08.05.01:535][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.08.03-08.05.01:546][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.03-08.05.02:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.03-08.05.02:789][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.738ms to complete.
+[2015.08.03-08.05.02:789][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.967
+[2015.08.03-08.05.02:887][  0]LogCollectionManager: Loaded 0 collections in 0.001678 seconds
+[2015.08.03-08.05.02:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1792 classes and 301 folders.
+[2015.08.03-08.05.02:926][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.03-08.05.02:946][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.03-08.05.02:957][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.08.03-08.05.02:983][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.03-08.05.02:984][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.02:987][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.03-08.05.03:009][  0]LogLoad: Full Startup: 9.75 seconds (BP compile: 0.58 seconds)
+[2015.08.03-08.05.03:388][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.03-08.05.03:418][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.08.03-08.05.03:509][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.03-08.05.04:070][  3]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.05:359][  6]LogAssetRegistry: Asset discovery search completed in 6.3223 seconds
+[2015.08.03-08.05.09:058][ 39]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.09:813][ 85]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.09:862][ 85]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.03-08.05.09:913][ 85]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.03-08.05.30:674][756]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.31:479][827]LogTemp: Dropped TextRender on Category My Character
+[2015.08.03-08.05.31:518][827]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.03-08.05.36:229][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.08.03-08.05.41:735][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.08.03-08.05.43:749][925]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.44:262][969]LogTemp: Dropped GrenadeAmount on Category Attributes
+[2015.08.03-08.05.44:297][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.08.03-08.05.46:421][140]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.47:610][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.08.03-08.05.48:575][311]BlueprintLog: New page: Compile ClassHunter
+[2015.08.03-08.05.48:734][311]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_1.CollisionCylinder and CapsuleComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.03-08.05.48:734][311]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_1.Arrow and ArrowComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.03-08.05.48:734][311]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_1.CharMoveComp and CharacterMovementComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.03-08.05.48:734][311]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.ClassHunter_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.03-08.05.48:810][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.08.03-08.05.48:944][311]BlueprintEditorCompileResults: Info [0055.69] Compile of ClassHunter successful! [in 369 ms]
+[2015.08.03-08.05.49:069][314]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.49:277][314]LogSavePackage: Save=177.651382ms
+[2015.08.03-08.05.49:277][314]LogSavePackage: Moving '../../../../../../Users/Loïc/Documents/Unreal Projects/TestLAN/Saved/ClassHunter613029EB4E6D9B499A96599311B65EBC.tmp' to '../../../../../../Users/Loïc/Documents/Unreal Projects/TestLAN/Content/FirstPersonBP/Blueprints/ClassHunter.uasset'
+[2015.08.03-08.05.52:840][614]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.54:002][712]LogD3D11RHI: InitD3DDevice
+[2015.08.03-08.05.55:256][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.03-08.05.56:511][801]BlueprintLog: New page: Compile ClassHunter
+[2015.08.03-08.05.56:575][801]LogClass:Warning: Type mismatch in Health of ClassHunter_C - Previous (FloatProperty) Current(IntProperty) for package:  FObject
